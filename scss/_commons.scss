@@ -1,0 +1,65 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+body{
+    background-image: url(../img/fondoprincipal.png);
+}
+
+footer {
+    width: 100%;
+    padding: 50px 0px;
+}
+
+h1{
+	font-size: $textXl;
+}
+
+h2{
+	font-size: $textLg;
+}
+
+h3{
+	font-size: $textMd;
+}
+
+p{
+	font-family: $mainFont;
+	line-height: 1.4em;
+	color:$grey;
+	font-size: $textMd;
+	padding: 10px 30px;
+}
+
+
+
+// backgrounds
+.bgLight{
+	background-color:rgba(243, 240, 240, .8) ;
+}
+
+.bgDark{
+	background-color: rgba(195, 190, 190, .8);
+}
+
+.conteiner{
+    border: none;
+    background-color: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 5px;
+    margin-right: 5px;
+} 
+
+.conteiner1{
+    border: none;
+    background-color: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: auto;
+    margin-bottom: 50px;  
+}

@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,200&family=Roboto&display=swap');
+
+//vars fonts
+$mainFont:'Roboto', sans-serif;
+$secondaryFont:'Monserrat', sans-serif;
+
+//sizes
+$textSm:0.8em;
+$textMd:1em;
+$textLg:1.6em;
+$textXl:3em;
+
+.texto-gris{
+    color: rgba(30, 4, 177, 0.932)
+}
+
+.letra-chica{ 
+    font-size: 12px;
+}
+
+.textoDestacado{
+	background-color: rgba(255, 252, 0, .4);
+    justify-content: center;
+}
+
+.text-derecha{
+    text-align: right;
+}
