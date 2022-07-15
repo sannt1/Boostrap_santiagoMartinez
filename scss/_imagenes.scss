@@ -2,9 +2,19 @@
     width: 100%;
 }
 
+.sombra{
+    background-color: $grey;
+}
+
 .esquinas-redondas{
+    @extend .sombra;
     border-radius: 150px;
 }
+
+.card-body{
+    @extend .sombra;
+}
+
 .imagen-logos{
     padding-top: 10px;
     width: 45%; 
