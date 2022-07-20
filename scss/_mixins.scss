@@ -6,12 +6,16 @@
 }
 
 h1{
-    @include texto(10em, $black);
+    @include texto(100px, $black);
 }
 
-h3,h4{
-    @include texto(8em, $grey);
+h3, h4{
+    @include texto(50px, $grey);
 }
+
+// h5{
+//     @include texto(1em, $grey)
+// }
 
 $paleta:(
     'uno':#1b325f,
@@ -21,5 +25,6 @@ $paleta:(
 
 .container{
      background-color: map-get($map: $paleta, $key:'dos' );
-     padding: 5px;
+     padding: 10vh;
+     margin: 10vh;
 }
