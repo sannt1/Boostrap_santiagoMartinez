@@ -23,8 +23,8 @@ $paleta:(
     'tres':#123142,
 );
 
-.container{
-     background-color: map-get($map: $paleta, $key:'dos' );
-     padding: 10vh;
-     margin: 10vh;
-}
+// .container{
+//      background-color: map-get($map: $paleta, $key:'dos' );
+//      padding: 10vh;
+//      margin: 10vh;
+// }

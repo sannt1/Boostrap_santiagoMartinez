@@ -14,22 +14,32 @@ footer {
 
 h1{
 	font-size: $textXl;
+    font-family: $mainFont;
 }
 
 h2{
 	font-size: $textLg;
+    font-family: $mainFont;
 }
 
 h3{
 	font-size: $textMd;
+    font-family: $mainFont;
 }
 
 p{
-	font-family: $mainFont;
+	font-family: $secondaryFont;
 	line-height: 1.4em;
 	color:$grey;
 	font-size: $textMd;
 	padding: 10px 30px;
+}
+
+li a {
+    text-decoration: none;
+    font-family: $secondaryFont;
+    font-size: $textSm;
+    color: $grey;
 }
 
 

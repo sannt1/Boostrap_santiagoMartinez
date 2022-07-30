@@ -11,11 +11,6 @@ h3, h4 {
   padding: 5px;
   margin: 5px; }
 
-.container {
-  background-color: #3b657a;
-  padding: 10vh;
-  margin: 10vh; }
-
 .texto-gris {
   color: rgba(30, 4, 177, 0.932); }
 
@@ -41,20 +36,29 @@ footer {
   padding: 50px 0px; }
 
 h1 {
-  font-size: 3em; }
+  font-size: 3em;
+  font-family: "Roboto", sans-serif; }
 
 h2 {
-  font-size: 1.6em; }
+  font-size: 1.6em;
+  font-family: "Roboto", sans-serif; }
 
 h3 {
-  font-size: 1em; }
+  font-size: 1em;
+  font-family: "Roboto", sans-serif; }
 
 p {
-  font-family: "Roboto", sans-serif;
+  font-family: "Monserrat", sans-serif;
   line-height: 1.4em;
   color: #6D6A6A;
   font-size: 1em;
   padding: 10px 30px; }
+
+li a {
+  text-decoration: none;
+  font-family: "Monserrat", sans-serif;
+  font-size: 0.8em;
+  color: #6D6A6A; }
 
 .bgLight {
   background-color: rgba(243, 240, 240, 0.8); }
