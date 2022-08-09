@@ -10,21 +10,12 @@ h1{
 }
 
 h3, h4{
-    @include texto(50px, $grey);
+    @include texto($textMd, $black);
 }
-
-// h5{
-//     @include texto(1em, $grey)
-// }
 
 $paleta:(
     'uno':#1b325f,
     'dos':#3b657a,
     'tres':#123142,
+    'cuatro': #dde0cf,
 );
-
-// .container{
-//      background-color: map-get($map: $paleta, $key:'dos' );
-//      padding: 10vh;
-//      margin: 10vh;
-// }

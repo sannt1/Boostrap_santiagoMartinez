@@ -1,16 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,200&family=Roboto&display=swap");
-h1 {
-  font-size: 100px;
-  color: #1A1A1A;
-  padding: 5px;
-  margin: 5px; }
-
-h3, h4 {
-  font-size: 50px;
-  color: #6D6A6A;
-  padding: 5px;
-  margin: 5px; }
-
 .texto-gris {
   color: rgba(30, 4, 177, 0.932); }
 
@@ -24,12 +12,21 @@ h3, h4 {
 .text-derecha {
   text-align: right; }
 
+h1 {
+  font-size: 100px;
+  color: #1A1A1A;
+  padding: 5px;
+  margin: 5px; }
+
+h3, h4 {
+  font-size: 1.5em;
+  color: #1A1A1A;
+  padding: 5px;
+  margin: 5px; }
+
 * {
   padding: 0;
   margin: 0; }
-
-body {
-  background-image: url(../img/fondoprincipal.png); }
 
 footer {
   width: 100%;
@@ -40,24 +37,24 @@ h1 {
   font-family: "Roboto", sans-serif; }
 
 h2 {
-  font-size: 1.6em;
+  font-size: 2em;
   font-family: "Roboto", sans-serif; }
 
 h3 {
-  font-size: 1em;
+  font-size: 1.5em;
   font-family: "Roboto", sans-serif; }
 
 p {
   font-family: "Monserrat", sans-serif;
   line-height: 1.4em;
-  color: #6D6A6A;
-  font-size: 1em;
+  color: #1A1A1A;
+  font-size: 1.1em;
   padding: 10px 30px; }
 
 li a {
   text-decoration: none;
   font-family: "Monserrat", sans-serif;
-  font-size: 0.8em;
+  font-size: 1.1em;
   color: #6D6A6A; }
 
 .bgLight {
@@ -109,13 +106,16 @@ li a {
   width: 100%; }
 
 .sombra, .esquinas-redondas, .card-body {
-  background-color: #6D6A6A;
+  background-color: #dde0cf;
   margin: 10px;
   padding: auto;
   align-items: center; }
 
 .esquinas-redondas {
   border-radius: 150px; }
+
+.card-body {
+  align-items: center; }
 
 .imagen-logos {
   padding-top: 10px;

@@ -3,7 +3,7 @@
 }
 
 .sombra{
-    background-color: $grey;
+    background-color: $producto;
     margin: 10px;
     padding: auto;
     align-items: center
@@ -16,6 +16,7 @@
 
 .card-body{
     @extend .sombra;
+    align-items: center;
 }
 
 .imagen-logos{
